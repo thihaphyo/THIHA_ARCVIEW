@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ArcView">
+        <attr name="height" format="dimension" />
+        <attr name="position">
+            <enum name="bottom" value="0" />
+            <enum name="top" value="1" />
+            <enum name="left" value="2" />
+            <enum name="right" value="3" />
+        </attr>
+        <attr name="direction">
+            <enum name="inside" value="0" />
+            <enum name="outside" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>
